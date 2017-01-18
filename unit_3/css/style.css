@@ -1,11 +1,13 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
 
 body {
 	font-family: Helvetica, sans-serif;
 	color: #1B1B1B;
+	font-size: 18px;
 }
 
 h1 h2 {
@@ -13,9 +15,10 @@ h1 h2 {
 }
 
 h1 {
-	font-size: 35px;
+	font-size: 2em;
 	color: #1B1B1B;
 	font-style: italic;
+	margin-bottom: .5em;
 }
 
 h2 {
@@ -30,6 +33,34 @@ img {
 
 #AboveFold {
 	color: #1B1B1B;
-	background-image: url("flower_reaching_for_the_sun.jpg");
-	background-color: #87C0FF;
+	background-image: url("../images/flower_reaching_for_the_sun.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 65vh;
+	padding: 10em 0 0;
+}
+#AboveFold div {
+    width: 58em;
+    margin-left: 6em;
+}
+
+.cta {
+    display: inline-block;
+    padding: 1em 2em;
+    /* border: .1em solid; */
+    color: #fff;
+    text-decoration: none;
+    background: purple;
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+section {
+    padding: 5em 0;
+}
+
+section#guide {
+    background: purple;
+    color: #fff;
+    text-align: center;
 }
