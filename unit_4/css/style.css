@@ -15,20 +15,24 @@ body {
 h1 {
 	font-size: 2.1em;
 	color: #1B1B1B;
-	margin-bottom: .5em;
+	margin-bottom: 1.8em;
 	font-family: "Raleway", bold, sans-serif;
 }
 
 h2 {
-	font-size: 1.6em;
 	font-family: "Raleway", sans-serif;
 	font-weight: 300;
+	text-align: center;
+	font-size: 1.1em;
+	color: #1B1B1B;
 }
 
 h3 {
 	font-family: "Raleway", sans-serif;
-	font-size: 1.3em;
-	font-weight: 300;
+	text-align: center;
+	font-size: 1.1em;
+	color: #361FB2;
+
 }
 
 a {
@@ -36,11 +40,17 @@ a {
 	color: white;
 }
 
+header {
+	color: #1B1B1B; 
+}
+
+header img {
+	float: left;
+	width: 8%;
+}
+
 nav {
-	text-align: right;
-	background-color: #2962bb;
-	color: #ffffff; 
-	padding: .5em;
+	float: right;
 }
 
 footer {
@@ -55,10 +65,7 @@ nav a {
 	text-decoration: none;
 	padding: .2em;
 	margin: 1em auto;
-}
-
-aside {
-	float: right;
+	color: #1B1B1B;
 }
 
 .work {
@@ -100,12 +107,10 @@ section#guide {
     margin-left: 9em;
 }
 
-#AboveFold h1 {
-	margin-bottom: 1.8em;
-}
-
 #AboveFold h2 {
 	margin-bottom: 6em;
+	font-size: 1.6em;
+	font-weight: 300;
 }
 
 #BelowFold {
@@ -113,15 +118,12 @@ section#guide {
 	text-align: center;
 }
 
-#BelowFold h4 {
-	text-align: center;
-	font-size: 1.1em;
-	color: #361FB2;
+#BelowFold section {
+	padding: 2em;
 }
 
 #me {
-	padding: 1em;
-	background: url("../images/lpdcoaching.jpg") no-repeat;
+	background: url("../images/leonie.png") no-repeat;
 }
 
 #magnificent {
