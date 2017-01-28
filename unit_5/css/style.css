@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i|Raleway:400,700');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Noto Serif", Arial, sans-serif;
+	color: #1B1B1B;
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 2.1em;
+	color: #1B1B1B;
+	margin-bottom: 1.8em;
+	font-family: "Raleway", bold, sans-serif;
+}
+
+h2 {
+	font-family: "Raleway", sans-serif;
+	font-weight: 300;
+	text-align: center;
+	font-size: 1.1em;
+	color: #1B1B1B;
+}
+
+h3 {
+	font-family: "Raleway", sans-serif;
+	text-align: center;
+	font-size: 1.1em;
+	color: #361FB2;
+
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+header {
+	color: #1B1B1B; 
+}
+
+header img {
+	float: left;
+	width: 8%;
+}
+
+nav {
+	float: right;
+}
+
+footer {
+	padding: 1em;
+	text-align: center;
+	background-color: #E36C03;
+}
+
+nav a {
+	font-family: "Raleway", sans-serif;
+	font-weight: 200;
+	text-decoration: none;
+	padding: .2em;
+	margin: 1em auto;
+	color: #1B1B1B;
+}
+
+.work {
+	text-align: center;
+}
+
+.cta {
+    display: inline-block;
+    padding: .5em 1em;
+    color: #fff;
+    text-decoration: none;
+    background: #E36C03;
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+section#guide {
+	padding: .5em;
+    background: #2962bb;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+}
+
+#logo {
+	align: left;
+}
+
+#AboveFold {
+	color: #1B1B1B;
+	background-image: url("../images/flower_reaching_for_the_sun.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 75vh;
+	padding: 3em 0 0;
+	text-align: center;
+}
+
+#AboveFold div {
+    width: 50em;
+    margin-left: 9em;
+}
+
+#AboveFold h2 {
+	margin-bottom: 6em;
+	font-size: 1.6em;
+	font-weight: 300;
+}
+
+#BelowFold {
+	margin-top: 2em;
+	text-align: center;
+}
+
+#BelowFold section {
+	padding: 2em;
+}
+
+#me {
+	background: url("../images/leonie.png") no-repeat;
+}
+
+#magnificent {
+	font-size: 1.3em;
+	font-style: italic;
+}
