@@ -68,25 +68,29 @@ nav a {
 	color: #1B1B1B;
 }
 
+.cta {
+    display: block;
+    padding: .5em 1em;
+    color: #1B1B1B;
+    text-decoration: none;
+    background: rgba(255,255,255,.6);
+    margin: 1em auto;
+    font-size: 1.5em;
+    width: 88vh;
+}
+
 .work {
 	text-align: center;
+	background-color: #FFE2B8;
+	width: 33vh
 }
 
-.cta {
-    display: inline-block;
-    padding: .5em 1em;
-    color: #fff;
-    text-decoration: none;
-    background: #E36C03;
-    margin-top: 1em;
-    font-size: 1.5em;
-}
-
-section#guide {
+#guide {
 	padding: .5em;
-    background: #2962bb;
+    background: #8CAF69;
     color: #fff;
     font-family: "Raleway", sans-serif;
+    height: 8vh;
 }
 
 #logo {
@@ -98,14 +102,14 @@ section#guide {
 	background-image: url("../images/flower_reaching_for_the_sun.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 75vh;
+	height: 92vh;
 	padding: 3em 0 0;
 	text-align: center;
 }
 
 #AboveFold div {
     width: 50em;
-    margin-left: 9em;
+    margin: 0 auto;
 }
 
 #AboveFold h2 {
@@ -127,7 +131,15 @@ section#guide {
 	background: url("../images/leonie.png") no-repeat;
 }
 
+#guess {
+	background-color: #FFE2B8;
+}
+
 #magnificent {
 	font-size: 1.3em;
 	font-style: italic;
+}
+
+#guide h2,h4,form,button {
+	display: inline;
 }
