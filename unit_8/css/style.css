@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i|Raleway:400,600');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Noto Serif", Arial, sans-serif;
+	color: #1B1B1B;
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 2.2em;
+	color: #1B1B1B;
+	margin-bottom: 1.8em;
+	font-family: "Raleway", bold, sans-serif;
+}
+
+h2 {
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+	text-align: center;
+	font-size: 1.2em;
+	color: #1B1B1B;
+	margin: 0 0 1em 0;
+}
+
+h3 {
+	font-family: "Raleway", sans-serif;
+	text-align: center;
+	font-size: 1.1em;
+	color: #361FB2;
+	padding: 0 0 1em 0;
+}
+
+p {
+	margin: 0 0 .85em 0;
+	line-height: 1.25;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+header {
+	color: #1B1B1B; 
+}
+
+nav {
+	float: right;
+}
+
+footer {
+	padding: 1em;
+	text-align: center;
+	background-color: #9778B7;
+}
+
+nav a {
+	font-family: "Raleway", sans-serif;
+	font-weight: 200;
+	text-decoration: none;
+	padding: .2em .5em;
+	color: #1B1B1B;
+}
+
+a:hover {
+	color: #8CAF69;
+}
+
+.cta {
+    display: block;
+    padding: .5em 1em;
+    color: #1B1B1B;
+    text-decoration: none;
+    background: rgba(255,255,255,.75);
+    margin: 1em auto;
+    font-size: 1.5em;
+    width: 70vh;
+}
+
+.work {
+	text-align: center;
+	width: 33%;
+	float: left;
+	padding: 0 2em;
+}
+
+.work h3 {
+	padding: 0 0 .5em 0;
+}
+
+#guide {
+	padding: .5em;
+    background: #8CAF69;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    height: 8vh;
+}
+
+#logo {
+	align: left;
+}
+
+#AboveFold {
+	color: #1B1B1B;
+	background-image: url("../images/flower_reaching_for_the_sun.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 92vh;
+	padding: 6em 0 0 0;
+	text-align: center;
+}
+
+#AboveFold div {
+    width: 50em;
+    margin: 0 auto;
+}
+
+#AboveFold h2 {
+	margin-bottom: 6em;
+	font-size: 1.6em;
+	font-weight: 300;
+}
+
+#BelowFold {
+	margin-top: .25em;
+	text-align: center;
+}
+
+#BelowFold section {
+	padding: 2em;
+}
+
+#me {
+	background: #D1DFC3;
+}
+
+#magnificent {
+	font-size: 1.3em;
+	font-style: italic;
+}
+
+#guide h2,h4,form,button {
+	display: inline;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
