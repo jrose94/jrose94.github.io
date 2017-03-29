@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i|Raleway:400,600');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i|Raleway:400,600,700');
 
 * {
 	padding: 0;
@@ -36,6 +36,12 @@ h3 {
 	padding: 0 0 1em 0;
 }
 
+h5 {
+	font-family: "Raleway", sans-serif;
+	text-align: center;
+	font-weight: 700;
+}
+
 p {
 	margin: 0 0 .85em 0;
 	line-height: 1.25;
@@ -55,7 +61,7 @@ nav {
 }
 
 footer {
-	padding: 1em;
+	padding: .2em;
 	text-align: center;
 	background-color: #9778B7;
 }
@@ -72,6 +78,27 @@ a:hover {
 	color: #8CAF69;
 }
 
+#AboveFold {
+	color: #1B1B1B;
+	background-image: url("../images/flower_reaching_for_the_sun.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 92vh;
+	padding: 5em 0 0 0;
+	text-align: center;
+}
+
+#AboveFold div {
+    width: 50em;
+    margin: 0 auto;
+}
+
+#AboveFold h2 {
+	margin-bottom: 8em;
+	font-size: 1.6em;
+	font-weight: 300;
+}
+
 .cta {
     display: block;
     padding: .5em 1em;
@@ -83,48 +110,31 @@ a:hover {
     width: 70vh;
 }
 
-.work {
-	text-align: center;
-	width: 33%;
-	float: left;
-	padding: 0 2em;
-}
-
-.work h3 {
-	padding: 0 0 .5em 0;
-}
-
 #guide {
-	padding: .5em;
+	padding: 1em;
     background: #8CAF69;
     color: #fff;
     font-family: "Raleway", sans-serif;
     height: 8vh;
+    text-align: center;
 }
 
-#logo {
-	align: left;
+#guide h2,h4,form,button {
+	display: inline;
 }
 
-#AboveFold {
-	color: #1B1B1B;
-	background-image: url("../images/flower_reaching_for_the_sun.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 92vh;
-	padding: 6em 0 0 0;
-	text-align: center;
+#guide h4 {
+	padding: 0 0 0 .25em;
 }
 
-#AboveFold div {
-    width: 50em;
-    margin: 0 auto;
+#guide form {
+	padding: 0 0 0 1em;
+	font-size: .7em;
+	font-style: italic;
 }
 
-#AboveFold h2 {
-	margin-bottom: 6em;
-	font-size: 1.6em;
-	font-weight: 300;
+#guide input {
+	padding: 0 1em;
 }
 
 #BelowFold {
@@ -136,17 +146,34 @@ a:hover {
 	padding: 2em;
 }
 
+.work {
+	text-align: center;
+	width: 33.3%;
+	float: left;
+	padding: 0 2em;
+}
+
+.work h3 {
+	padding: 0 0 .5em 0;
+}
+
 #me {
 	background: #D1DFC3;
 }
 
+#guess h5 {
+	padding: 1em 0 0 0;
+	font-size: 1.4em;
+}
+
 #magnificent {
-	font-size: 1.3em;
+	font-size: 1.2em;
 	font-style: italic;
 }
 
-#guide h2,h4,form,button {
-	display: inline;
+#step {
+	padding: 1em 0 0 0;
+	font-size: 1.5em;
 }
 
 .clearfix:after {
@@ -156,4 +183,66 @@ a:hover {
 	content: " ";
 	clear: both;
 	height: 0;
+}
+
+@media screen and (max-width: 1105px) {
+	form,input,button {
+		display: inline-flex;
+	}
+
+	input,button{
+		margin: 0 .5em;
+	}
+
+	form {
+		margin: 1em 0;
+	}
+}
+
+@media screen and (max-width: 805px) {
+	body {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	body {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 605px) {
+	nav {
+		display: block;
+		text-align: center;
+		margin: 0;
+	}
+
+	h1 {
+		width: 75%;
+		margin: 0 auto 3em;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	h2 {
+		width: 85%;
+		margin: 0 auto 1em;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	h1 {
+		width: 75%;
+	}
+
+	h2 {
+		width: 85%;
+		margin: 0 auto 1em;
+	}
+
+	.cta {
+		width: 50%;
+		margin: 0 auto;
+	}
 }
