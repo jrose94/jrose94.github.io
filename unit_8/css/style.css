@@ -235,7 +235,7 @@ a:hover {
 	}
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
 	h1 {
 		max-width: 85%;
 		margin: 0 auto 3em;
