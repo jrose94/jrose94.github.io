@@ -203,11 +203,21 @@ a:hover {
 	body {
 		font-size: 14px;
 	}
+
+	h2 {
+		max-width: 70%;
+		margin: 0 auto;
+	}
 }
 
 @media screen and (max-width: 700px) {
 	body {
 		font-size: 12px;
+	}
+
+	h1 {
+		max-width: 85%;
+		margin: 0 auto 3em;
 	}
 }
 
@@ -217,28 +227,24 @@ a:hover {
 		text-align: center;
 		margin: 0;
 	}
-
-	h1 {
-		width: 75%;
-		margin: 0 auto 3em;
-	}
 }
 
 @media screen and (max-width: 568px) {
 	h2 {
-		width: 85%;
 		margin: 0 auto 1em;
 	}
 }
 
 @media screen and (max-width: 400px) {
 	h1 {
-		width: 75%;
+		max-width: 85%;
+		margin: 0 auto 3em;
 	}
 
-	h2 {
-		width: 85%;
-		margin: 0 auto 1em;
+	.work {
+		float: none;
+		width: auto;
+		margin: 0 auto;
 	}
 
 	.cta {
