@@ -185,6 +185,10 @@ a:hover {
 	height: 0;
 }
 
+#footnav {
+	display: none;
+}
+
 @media screen and (max-width: 1105px) {
 	form,input,button {
 		display: inline-flex;
@@ -223,12 +227,16 @@ a:hover {
 
 @media screen and (max-width: 605px) {
 	nav {
+		display: none;
+	}
+
+	#footnav {
 		display: block;
 		text-align: center;
 		float: none;
 	}
 
-	nav a {
+	#footnav a {
 		display: block;
 		border-bottom: 2px black solid;
 		border-width: 80%;
@@ -237,15 +245,13 @@ a:hover {
 }
 
 @media screen and (max-width: 568px) {
+	h1 {
+		max-width: 65%
+	}
+
 	h2 {
 		margin: 0 auto 1em;
-	}
-}
-
-@media screen and (max-width: 450px) {
-	h1 {
-		max-width: 85%;
-		margin: 0 auto 3em;
+		max-width: 55%
 	}
 
 	.work {
@@ -258,4 +264,27 @@ a:hover {
 		width: 50%;
 		margin: 0 auto;
 	}
+}
+
+
+@media screen and (max-width: 505px) {
+	body {
+		font-size: 11px;
+	}
+
+	#guide {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 455px) {
+	h1 {
+		max-width: 45%
+	}
+
+	h2 {
+		max-width: 35%
+	}
+
 }
